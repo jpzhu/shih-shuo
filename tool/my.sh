@@ -1,4 +1,4 @@
-cp ../$1.html .
+cp ../tool/$1.html .
 rm -f *.md
 num_entry=$(grep entry $1.html|wc -l)
 for file in $(seq -w 0 $num_entry)
